@@ -4,6 +4,7 @@ body{
     background-color: #F6D189;
     margin: 0px;
     padding: 0px;
+    overflow-x:hidden;
 }
 
 html{
@@ -82,6 +83,10 @@ ul {
     padding: 0px;
 }
 
+.indent {
+    padding-right: 5vw;
+}
+
 .brown {
     color: #643500;
 }
@@ -107,7 +112,7 @@ ul {
 }
 
 .header {
-    width: 100vw;
+    max-width: 100vw;
 	height: 20vw;
 	background-image: url("woodStockbanner-04.svg");
 	display: flex;
@@ -123,7 +128,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    max-width: 100vw;
     /*height: 50vh;*/
     /*border-style: dashed;*/
     margin: 15vh 0;
@@ -187,6 +192,9 @@ button {
     overflow: visible;
     z-index: 1;
     margin-bottom: 5vh;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
 }
 
 .sly {
@@ -202,7 +210,7 @@ button {
     width: 100vw;
     height: auto;
     z-index: 5;
-    margin-right: 3vw;
+    margin-left: -10vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -427,7 +435,7 @@ button {
     display: flex;
     flex-direction: row;
     overflow: visible;
-    margin-bottom: -15vw;
+    margin-bottom: 10vw;
 }
 
 .footerSVGs {
