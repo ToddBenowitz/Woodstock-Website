@@ -84,7 +84,7 @@ ul {
 }
 
 .indent {
-    padding-right: 5vw;
+    padding-right: 2.5vw;
 }
 
 .brown {
@@ -510,3 +510,16 @@ a:hover {
 a:active { 
     text-decoration: none; 
 }
+
+@media screen and (max-width: 1000px) {
+    .sly {
+      width: 50vw;
+    }
+    .jimi {
+        width: 40vw;
+    }
+    .janis{
+        width: 60vw;
+        padding-right: 25vw;
+    }
+  }
